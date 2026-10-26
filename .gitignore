@@ -1,0 +1,25 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+**/application-local.properties
+
+# Java / Spring build outputs
+ecommerce-backend/target/
+ecommerce-backend/build/
+
+# Uploaded product images and runtime data (keep customer uploads out of Git)
+ecommerce-backend/uploads/
+**/uploads/
+
+# Frontend dependencies and build output
+ecommerce-frontend/node_modules/
+ecommerce-frontend/dist/
+ecommerce-frontend/.vite/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
